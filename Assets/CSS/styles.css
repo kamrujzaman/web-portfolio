@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo i {
+  margin-right: 1rem;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.card {
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* About Section */
+.about .custom-card {
+  border: none;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+/* Services Section */
+/* .services .icon i {
+    background: white;
+    padding: 1rem;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+}
+
+.services .icon:hover i {
+    background: #0078ff;
+    color: white;
+    border: 5px solid white;
+} */
+
+.services .icon {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background: white;
+  border: 5px solid #0078ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .icon:hover {
+  background: #0078ff;
+  color: white;
+  border: 5px solid white;
+}
+
+/* Portfolio Section */
+.portfolio .image-container {
+  overflow: hidden;
+}
+.portfolio .icon {
+  font-size: 2.5rem;
+}
+
+.portfolio img {
+  transition: transform 0.5s;
+}
+
+.portfolio img:hover {
+  transform: scale(1.2);
+}
